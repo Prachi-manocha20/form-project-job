@@ -1,0 +1,9 @@
+$font-family_1: "PT Sans", sans-serif;
+
+@import "https://fonts.googleapis.com/css2?family=PT+Sans&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family_1;
+}
