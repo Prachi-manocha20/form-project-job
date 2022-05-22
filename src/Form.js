@@ -21,7 +21,11 @@ const Form = () => {
             <br /> the printing and typesetting industry.
           </p>
         </div>
-        {false ? <FormSignup submitForm={submitForm} /> : <FormSuccess />}
+        {!isSubmitted ? (
+          <FormSignup submitForm={submitForm} />
+        ) : (
+          <FormSuccess />
+        )}
       </div>
     </>
   );
